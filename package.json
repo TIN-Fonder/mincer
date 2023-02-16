@@ -1,9 +1,12 @@
 {
-  "name": "mincer",
-  "version": "1.0.0",
-  "description": "",
+  "name": "@tinfonder/mincer",
+  "version": "0.1.0",
+  "description": "NodeJS scraping utility",
   "main": "index.js",
   "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "dependencies": {
     "node-fetch-cookies": "^2.0.4",
     "playwright": "^1.30.0",
@@ -15,14 +18,11 @@
     "eslint-config-airbnb-base": "15.0.0",
     "eslint-plugin-import": "^2.25.2"
   },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/TIN-Fonder/mincer.git"
   },
-  "author": "",
+  "author": "TIN-Fonder",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/TIN-Fonder/mincer/issues"
