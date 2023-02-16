@@ -1,0 +1,10 @@
+node_modules
+testdata
+.mincer
+
+# Logs
+*.log
+
+# system files
+.DS_Store
+Thumbs.db

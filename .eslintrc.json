@@ -1,0 +1,13 @@
+{
+  "extends": "airbnb-base",
+  "rules": {
+    "import/extensions": [
+      "error",
+      "ignorePackages",
+      {
+        "js": "always"
+      }
+    ],
+    "no-await-in-loop": "off"
+  }
+}

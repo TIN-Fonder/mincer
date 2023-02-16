@@ -1,0 +1,31 @@
+{
+  "name": "mincer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "dependencies": {
+    "node-fetch-cookies": "^2.0.4",
+    "playwright": "^1.30.0",
+    "playwright-extra": "^4.3.5",
+    "puppeteer-extra-plugin-stealth": "^2.11.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.2.0",
+    "eslint-config-airbnb-base": "15.0.0",
+    "eslint-plugin-import": "^2.25.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TIN-Fonder/mincer.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TIN-Fonder/mincer/issues"
+  },
+  "homepage": "https://github.com/TIN-Fonder/mincer#readme"
+}
